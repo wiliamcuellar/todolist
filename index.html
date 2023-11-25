@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>To Do List</h2>
+
+        <form id="taskForm" class="d-flex flex-column">
+            <input class="form-control" type="text" placeholder="Hacer la tarea" id="taskInput">
+            <button class="btn btn-primary p-3 mt-3" type="submit">Agregar tarea</button>
+        </form>
+
+        <ul class="list-group p-3" id="taskList">
+        </ul>
+
+        <nav>
+            <ul id="pagination" class="pagination justify-content-center mt-3"></ul>
+        </nav>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/main.js"></script>
+</html>
